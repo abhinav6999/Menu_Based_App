@@ -34,5 +34,15 @@ public class Menu{
             System.out.println("Error: " + Ex.toString());
         }
     }
+    static void chrome(){
+        Runtime app = Runtime.getRuntime();
+        try{
+            app.exec("chrome");
+           
+        }
+        catch (Exception Ex){
+            System.out.println("Error: " + Ex.toString());
+        }
+    }
 
 }
