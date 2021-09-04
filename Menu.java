@@ -24,5 +24,15 @@ public class Menu{
             System.out.println("Error: " + Ex.toString());
         }
     }
+    static void calc(){
+        Runtime app = Runtime.getRuntime();
+        try{
+            app.exec("calc");
+           
+        }
+        catch (Exception Ex){
+            System.out.println("Error: " + Ex.toString());
+        }
+    }
 
 }
